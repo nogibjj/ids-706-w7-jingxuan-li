@@ -1,4 +1,5 @@
 # Makefile for Rust Project
+# make
 
 
 all: check build format lint test
