@@ -1,6 +1,6 @@
 [![CI](https://github.com/nogibjj/ids-706-w7-jingxuan-li/actions/workflows/CI.yml/badge.svg)](https://github.com/nogibjj/ids-706-w7-jingxuan-li/actions/workflows/CI.yml)
 
-# Rust Project Template with Functional CI/CD, Devcontainer, Dockerfile
+# Rust Project with Functional CI/CD, Devcontainer, Dockerfile
 
 
 ## File Structure
@@ -45,6 +45,8 @@ You can use Cargo to manage the build and execution process:
     ```bash
     cargo test
     ```
+    ![image](https://github.com/user-attachments/assets/82788c20-67f2-4df3-81e0-0ba97b8874a2)
+
 5. **Format the Code**
     ```bash
     cargo fmt
@@ -57,6 +59,7 @@ You can use Cargo to manage the build and execution process:
     ```bash
     cargo build --release
     ```
+
 
 
 This project uses Rust to perform SQLite operations and includes CLI (Command-Line Interface) features.
@@ -85,6 +88,7 @@ export PATH=$PATH:/workspaces/<REPO_NAME>/sqlite/target/release
 
 
 ### CLI Demo
+![image](https://github.com/user-attachments/assets/aeb58218-a669-4521-8dd2-4e601643096e)
 - `sqlite -c table` Create table `table1`.
 - `sqlite -l table ../data/RestaurantReviews.csv` Load data into table `table` from `../data/customer_new.csv`.
 - `sqlite -q "SELECT * FROM table;"` Query: `SELECT * FROM table;`
